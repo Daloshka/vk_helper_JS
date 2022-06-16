@@ -24,7 +24,7 @@ for (let i = 4; i < document.querySelectorAll('.FlatButton').length; i++) { // �
 
 b = document.querySelectorAll("#results > div > div.info > div.labeled.name > a")
 ids = []
-for (let i = 0; i < document.querySelectorAll('#results > div > div.info > div.labeled.name > a').length; i++) { // выведет 0, затем 1, затем 2
+for (let i = 0; i < document.querySelectorAll('#results > div > div.info > div.labeled.name > a').length; i++) { 
   id = b[i].href.split('/')[3]
   ids.push(id)
 }
